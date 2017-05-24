@@ -1,1 +1,394 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<title>Paquola Lab at LIBD</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/coffeehouse.jpg");
+    min-height: 75%;
+}
+.bgpage {
+    background-color: #faf2e4;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s2">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#research" class="w3-button w3-block w3-black">RESEARCH</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#publications" class="w3-button w3-block w3-black">PUBLICATIONS</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#contact" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-gray" style="font-size:90px">Paquola<br>Lab</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="bgpage w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE LAB</span></h5>
+    <p>We are a Computational Biology lab dedicated to analyzing multiple types of data to gain insight on brain development and brain disorders. </p>
+    <p>We are at the <a href="http://www.libd.org">Lieber Institute for Brain Development.</a>
+  </div>
+</div>
+
+<!-- Research Container -->
+<div class="w3-container" id="research">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">RESEARCH</span></h5>
+    <p><strong>The Lieber Institute for Brain Development</strong></p>
+
+    <p>The mission of the Lieber Institute for Brain Development is to translate the understanding of basic genetic and molecular mechanisms of schizophrenia and related developmental brain disorders into clinical advances that change the lives of affected individuals. The LIBD has the largest, most carefully curated and characterized collection of brains for the study of developmental brain disorders in the world, and generates large related datasets on genotype, gene expression, epigenomics, brain imaging, behavior and medical records. Our group is focused on analyzing these data in collaboration with other LIBD scientists.
+
+    <p><strong>Brain genomics, data integration and machine learning</strong></p>
+    <p>The genome is a complex place with multiple different contexts and relationships between them. One of our goals is to develop new analytical approaches combining graph theory and machine learning to explore the genome in novel ways and find links between genomic context and phenotypes.
+
+    <p><strong>Brain Somatic Mosaicism</strong></p>
+    <p>Somatic mosaicism refers to the fact that cells within an organism have different genomes. Several studies have shown that somatic mosaicism occurs in all brains and that somatic mutations in a subset of cells can cause various rare neurodevelopmental disorders. However, for most individuals, the extent and consequences of somatic mosaicism are largely unknown. The complexity and unique features of the brain suggest that somatic mosaicism can play an important role in behavior and cognition. As part of the NIMH-funded Brain Somatic Mosaicism Network, we work on identifying somatic genomic variants in the brain, the genomic features they are associated to, and how they relate to Schizophrenia and other brain disorders.
+
+    <p><strong>Collaborative and reproducible data analysis</strong></p>
+    <p>We believe that data analysis is better when done collaboratively. One of our projects is a minimalist by design and easy to adopt system to build and share reproducible data analysis workflows. Check it out on <a href="https://github.com/apuapaquola/rf">github</a>.
+
+  </div>
+</div>
+
+<!-- Publications Container -->
+<div class="w3-container" id="publications">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">PUBLICATIONS</span></h5>
+<p class=MsoNormal style='mso-hyphenate:auto;mso-layout-grid-align:none;
+text-autospace:none;mso-vertical-align-alt:auto'><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman"'>Erwin, JA*<b>, Paquola, AC*</b>,
+Singer, T, </span><span class=SpellE><span style='font-size:11.0pt;mso-fareast-font-family:
+"Helvetica Neue";mso-bidi-font-family:"Times New Roman"'>Gallina</span></span><span
+style='font-size:11.0pt;mso-fareast-font-family:"Helvetica Neue";mso-bidi-font-family:
+"Times New Roman"'>, I, Novotny,<sup> </sup>M, Quayle, C, <span class=SpellE>Bedrosian</span>,
+T, Butcher, CR, <span class=SpellE>Herdy</span>, JR, <span class=SpellE>Lasken</span>,
+RS, <span class=SpellE>Muotri</span>, AR, Gage, FH. </span><span
+style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>L1-Associated
+Genomic Regions are Deleted in Somatic Cells of the Healthy Human Brain</span><span
+style='font-size:11.0pt;mso-fareast-font-family:"Helvetica Neue";mso-bidi-font-family:
+"Times New Roman"'>. </span><i style='mso-bidi-font-style:normal'><span
+style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-bidi-language:AR-SA'>Nature Neuroscience. 2016. <span class=SpellE>doi</span>:
+10.1038/nn.4388</span></i><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:0pt;mso-bidi-language:AR-SA'>. (* equal
+contribution)</span><i style='mso-bidi-font-style:normal'><span
+style='font-size:11.0pt;mso-fareast-font-family:"Helvetica Neue";mso-bidi-font-family:
+"Times New Roman"'><o:p></o:p></span></i></p>
+
+<p class=MsoNormal style='mso-hyphenate:auto;mso-layout-grid-align:none;
+text-autospace:none;mso-vertical-align-alt:auto'><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;mso-bidi-language:
+AR-SA'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><b><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>Paquola,
+AC</span></b><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>,
+Erwin, JA, </span><span style='font-size:11.0pt;mso-fareast-font-family:"Helvetica Neue";
+mso-bidi-font-family:"Times New Roman"'>Gage, <span class=GramE>FH<span
+style='mso-spacerun:yes'>&nbsp; </span><span style='mso-fareast-font-family:
+"Droid Sans Fallback"'>A</span></span></span><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman"'> framework for collaborative
+computational research. <span class=SpellE><i style='mso-bidi-font-style:normal'>bioRxiv</i></span>
+2015; 033654</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><b><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-hyphenate:auto;mso-layout-grid-align:none;
+text-autospace:none;mso-vertical-align-alt:auto'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman";
+mso-font-kerning:0pt;mso-bidi-language:AR-SA'>Paquola, ACM</span></b><span
+style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-bidi-language:AR-SA'>*, Erwin, JA*, Gage, FH, Insights into the role of
+somatic mosaicism in the brain. <i style='mso-bidi-font-style:normal'>Current
+Opinion in Systems Biology</i>. 2017<i style='mso-bidi-font-style:
+normal'>.</i> (* equal contribution)<o:p></o:p></span></p>
+
+<p class=Standard><b><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-hyphenate:auto;mso-layout-grid-align:none;
+text-autospace:none;mso-vertical-align-alt:auto'><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;mso-bidi-language:
+AR-SA'>McConnell, MJ*, Moran, JV*, <span class=SpellE>Abyzov</span>, <span
+class=SpellE>Akbarian</span>, S, Bae, T, Erwin, JA, <span class=SpellE>Fasching</span>,
+L, <span class=SpellE>Flasch</span>, DA, Freed, D, Ganz, J, Kwan, KY, Kwon1,M, <span
+class=SpellE>Lodato</span>, MA, <b style='mso-bidi-font-weight:normal'>Paquola,
+ACM</b>, Rodin, R, <span class=SpellE>Rosenbluh</span>, C, <span class=SpellE>Sestan</span>,
+N, Sherman, MA, Song, S, Straub, R, Thorpe, J, Weinberger, DR, Urban, AE, Gage,
+FH, <span class=SpellE>Lehner</span>, T, <span class=SpellE>Senthil</span>, G,
+Walsh, C, Chess, A, <span class=SpellE>Courchesne</span>, E, Gleeson, JG, Kidd,
+JM, Park, PJ, Pevsner, J, <span class=SpellE>Vaccarino</span>, FM, Brain
+Somatic Mosaicism Network. Intersection of Diverse Neuronal Genomes and
+Neurological Disease: The Brain Somatic Mosaicism Network. <i style='mso-bidi-font-style:
+normal'>Science. 2017.</i><o:p></o:p></span></p>
+
+<p class=Standard><b><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=Standard><span class=SpellE><span style='font-size:11.0pt'>Lacar</span></span><span
+style='font-size:11.0pt'>, B, Linker, S, Jaeger, B, <span class=SpellE>Krishnaswami</span>,
+S, Barron, J, <span class=SpellE>Kelder</span>, M, <span class=SpellE>Parylak</span>,
+S, <b>Paquola, AC</b>, <span class=SpellE>Venepally</span>, P, Novotny, M,
+O'Connor, C, Fitzpatrick, C, Erwin, JA, Hsu, J, Husband, J, McConnell, MJ, <span
+class=SpellE>Lasken</span>, R, and Gage, FH. Nuclear RNA-<span class=SpellE>seq</span>
+of single neurons reveals molecular signatures of activation<i
+style='mso-bidi-font-style:normal'>. Nature Communications. </i></span><span
+style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman";mso-font-kerning:
+0pt;mso-bidi-language:AR-SA'>7:12020</span><span style='font-size:11.0pt'>.<i
+style='mso-bidi-font-style:normal'><o:p></o:p></i></span></p>
+
+<p class=Standard><b><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=Standard><span class=SpellE><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'>Vadodaria</span></span><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman"'> KC, <span class=SpellE>Mertens</span>
+J, <b>Paquola AC</b>, <span class=SpellE>Bardy</span> C, Li X, <span
+class=SpellE>Jappelli</span> R, Fung L, <span class=SpellE>Marchetto</span> MC,
+Hamm M, <span class=SpellE>Gorris</span> M, Koch P, Gage FH. Generation of
+functional human serotonergic neurons from fibroblasts. <span class=SpellE><i
+style='mso-bidi-font-style:normal'>Mol</i></span><i style='mso-bidi-font-style:
+normal'> Psychiatry</i>. 2016 Jan;21(1):49-61.</span><span style='font-size:
+11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span class=SpellE><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'>Mertens</span></span><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman"'> J, <b>Paquola AC</b>, Ku M, Hatch E, <span
+class=SpellE>Bhnke</span> L, <span class=SpellE>Ladjevardi</span> S, McGrath
+S, Campbell B, Lee H, <span class=SpellE>Herdy</span> JR, <span class=SpellE>Gonalves</span>
+JT, Toda T, Kim Y, Winkler J, Yao J, <span class=SpellE>Hetzer</span> MW, Gage
+FH. Directly Reprogrammed Human Neurons Retain Aging-Associated Transcriptomic
+Signatures and Reveal Age-Related Nucleocytoplasmic Defects. <span class=GramE><i
+style='mso-bidi-font-style:normal'>Cell<span style='mso-spacerun:yes'>&nbsp;
+</span>Stem</i></span><i style='mso-bidi-font-style:normal'> Cell</i>. 2015 Dec
+3;17(6):705-18.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span class=SpellE><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'>Marchetto</span></span><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman"'> MC, <span class=SpellE>Narvaiza</span>
+I, <span class=SpellE>Denli</span> AM, Benner C, <span class=SpellE>Lazzarini</span>
+TA, <span class=SpellE>Nathanson</span> JL, <b>Paquola AC</b>, Desai KN, <span
+class=SpellE>Herai</span> RH, Weitzman MD, Yeo GW, <span class=SpellE>Muotri</span>
+AR, Gage FH. Differential L1 regulation in pluripotent stem cells of humans and
+apes. <i style='mso-bidi-font-style:normal'>Nature</i>.<span
+style='mso-spacerun:yes'>&nbsp; </span>2013 Nov 28;503(7477):525-9.</span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>Lima
+WC, <b>Paquola AC</b>, <span class=SpellE>Varani</span> AM, Van <span
+class=SpellE>Sluys</span> MA, <span class=SpellE>Menck</span> CF. Laterally <span
+class=GramE>transferred<span style='mso-spacerun:yes'>&nbsp; </span>genomic</span>
+islands in <span class=SpellE>Xanthomonadales</span> related to pathogenicity
+and primary metabolism. <i style='mso-bidi-font-style:normal'>FEMS <span
+class=SpellE>Microbiol</span> Lett</i>. 2008 Apr;281(1):87-97.</span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>da
+Rocha RP, <b>Paquola AC</b>, Marques <span class=SpellE>Mdo</span> V, <span
+class=SpellE>Menck</span> CF, <span class=SpellE>Galhardo</span> RS.
+Characterization of the SOS regulon of <span class=SpellE>Caulobacter</span> <span
+class=SpellE>crescentus</span>. <i style='mso-bidi-font-style:normal'>J <span
+class=SpellE>Bacteriol</span></i>. <span class=GramE>2008<span
+style='mso-spacerun:yes'>&nbsp; </span>Feb</span>;190(4):1209-18.</span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span class=SpellE><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'>Ojopi</span></span><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'> EP, Oliveira PS, <span class=SpellE>Nunes</span> DN, <b>Paquola
+AC</b>, DeMarco R, <span class=SpellE>Gregrio</span> SP, Aires <span
+class=GramE>KA,<span style='mso-spacerun:yes'>&nbsp; </span><span class=SpellE>Menck</span></span>
+CF, <span class=SpellE>Leite</span> LC, <span class=SpellE>Verjovski</span>-Almeida
+S, Dias-<span class=SpellE>Neto</span> E. A quantitative view of <span
+class=GramE>the<span style='mso-spacerun:yes'>&nbsp; </span>transcriptome</span>
+of Schistosoma <span class=SpellE>mansoni</span> adult-worms using SAGE. <i
+style='mso-bidi-font-style:normal'>BMC Genomics</i>. 2007 Jun <span
+class=GramE>21;8:186</span>.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>Reis
+EM, <span class=SpellE>Ojopi</span> EP, Alberto FL, Rahal P, <span
+class=SpellE>Tsukumo</span> F, Mancini UM, <span class=SpellE>Guimares</span>
+GS, Thompson GM, Camacho C, <span class=SpellE>Miracca</span> E, <span
+class=SpellE>Carvalho</span> AL, Machado AA, <b>Paquola AC</b>, <span
+class=SpellE>Cerutti</span> JM, da Silva AM, Pereira GG, <span class=SpellE>Valentini</span>
+SR, Nagai MA, Kowalski LP, <span class=SpellE>Verjovski</span>-Almeida S, <span
+class=SpellE>Tajara</span> EH, Dias-<span class=SpellE>Neto</span> E, <span
+class=SpellE>Bengtson</span> MH, <span class=SpellE>Canevari</span> RA, <span
+class=SpellE>Carazzolle</span> MF, Colin C, Costa FF, Costa MC, <span
+class=SpellE>Estcio</span> MR, <span class=SpellE>Esteves</span> LI, Federico
+MH, <span class=SpellE>Guimares</span> PE, <span class=SpellE>Hackel</span> C,
+Kimura ET, Leoni SG, <span class=SpellE>Maciel</span> RM, <span class=SpellE>Maistro</span>
+S, <span class=SpellE>Mangone</span> FR, <span class=SpellE>Massirer</span> KB,
+Matsuo SE, <span class=SpellE>Nobrega</span> FG, <span class=SpellE>Nbrega</span>
+MP, <span class=SpellE>Nunes</span> DN, <span class=SpellE>Nunes</span> F, <span
+class=SpellE>Pandolfi</span> JR, <span class=SpellE>Pardini</span> MI, <span
+class=SpellE>Pasini</span> FS, Peres T, <span class=SpellE>Rainho</span> CA,
+dos Reis PP, <span class=SpellE>Rodrigus-Lisoni</span> FC, <span class=SpellE>Rogatto</span>
+SR, dos Santos A, dos Santos PC, <span class=SpellE>Sogayar</span> MC, Zanelli
+CF; Head and Neck Annotation Consortium. Large-scale transcriptome analyses
+reveal new genetic marker candidates of head, neck, and thyroid cancer. <i
+style='mso-bidi-font-style:normal'>Cancer Res</i>. 2005 Mar 1;65(5):1693-9.</span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>da
+Costa RM, <span class=SpellE>Riou</span> L, <b>Paquola AC</b>, <span
+class=SpellE>Menck</span> CF, Sarasin A. Transcriptional <span class=GramE>profiles<span
+style='mso-spacerun:yes'>&nbsp; </span>of</span> <span class=SpellE>unirradiated</span>
+or UV-irradiated human cells expressing either the cancer-prone XPB/CS allele
+or the <span class=SpellE>noncancer</span>-prone XPB/TTD allele. <i
+style='mso-bidi-font-style:normal'>Oncogene</i>. 2005 Feb 17;24(8):1359-74.</span><span
+style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>Reis
+EM, <span class=SpellE>Nakaya</span> HI, <span class=SpellE>Louro</span> R, <span
+class=SpellE>Canavez</span> FC, <span class=SpellE>Flatschart</span> AV,
+Almeida GT, <span class=SpellE>Egidio</span> CM, <b>Paquola AC</b>, Machado AA,
+<span class=SpellE>Festa</span> F, Yamamoto D, <span class=SpellE>Alvarenga</span>
+R, da Silva CC, Brito <span class=GramE>GC,<span
+style='mso-spacerun:yes'>&nbsp; </span>Simon</span> SD, Moreira-<span
+class=SpellE>Filho</span> CA, <span class=SpellE>Leite</span> KR, <span
+class=SpellE>Camara</span>-Lopes LH, Campos FS, <span class=SpellE>Gimba</span>
+E, <span class=SpellE>Vignal</span> GM, El-<span class=SpellE>Dorry</span> H, <span
+class=SpellE>Sogayar</span> MC, <span class=SpellE>Barcinski</span> MA, da
+Silva AM, <span class=SpellE>Verjovski</span>-Almeida S. Antisense <span
+class=SpellE>intronic</span> non-coding RNA levels correlate to the degree of
+tumor differentiation in prostate cancer. <i style='mso-bidi-font-style:normal'>Oncogene</i>.
+2004 Aug 26;23(39):6684-92.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span class=SpellE><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'>Louro</span></span><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'> R, <span class=SpellE>Nakaya</span> HI, <b>Paquola AC</b>,
+Martins EA, da Silva AM, <span class=SpellE>Verjovski</span>-Almeida S, Reis
+EM. RASL11A, member of a novel small monomeric <span class=SpellE>GTPase</span>
+gene family, is down-regulated in prostate tumors. <span class=SpellE><i
+style='mso-bidi-font-style:normal'>Biochem</i></span><i style='mso-bidi-font-style:
+normal'> <span class=SpellE>Biophys</span> Res <span class=SpellE>Commun</span></i>.
+2004 Apr 9;316(3):618-27.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>Brentani
+H, et al., <b>Paquola AC</b>, et al., <span class=SpellE>Zalcberg</span> H;
+Human Cancer Genome Project/Cancer Genome Anatomy Project Annotation
+Consortium; Human Cancer Genome Project Sequencing Consortium. The generation
+and utilization of a cancer-oriented representation of the human transcriptome
+by using expressed sequence tags. Proc Natl <span class=SpellE>Acad</span> <span
+class=SpellE>Sci</span> U S A. 2003 Nov 11;100(23):13418-23. <span
+class=SpellE>Epub</span> 2003 Oct 30.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><span class=SpellE><span style='font-size:11.0pt;mso-bidi-font-family:
+"Times New Roman"'>Verjovski</span></span><span style='font-size:11.0pt;
+mso-bidi-font-family:"Times New Roman"'>-Almeida S, DeMarco R, Martins EA, <span
+class=SpellE>Guimares</span> PE, <span class=SpellE>Ojopi</span> EP, <b>Paquola
+AC</b>, Piazza JP, <span class=SpellE>Nishiyama</span> MY Jr, <span
+class=SpellE>Kitajima</span> JP, Adamson RE, Ashton PD, <span class=SpellE>Bonaldo</span>
+MF, Coulson PS, Dillon GP, Farias LP, Gregorio SP, Ho PL, <span class=SpellE>Leite</span>
+RA, <span class=SpellE>Malaquias</span> LC, Marques RC, <span class=SpellE>Miyasato</span>
+PA, <span class=SpellE>Nascimento</span> AL, <span class=SpellE>Ohlweiler</span>
+FP, Reis EM, Ribeiro MA, <span class=SpellE>S</span> RG, <span class=SpellE>Stukart</span>
+GC, <span class=SpellE>Soares</span> MB, <span class=SpellE>Gargioni</span> C,
+Kawano T, Rodrigues V, Madeira AM, Wilson RA,<span
+style='mso-spacerun:yes'>&nbsp; </span><span class=SpellE>Menck</span> CF,
+Setubal JC, <span class=SpellE>Leite</span> LC, Dias-<span class=SpellE>Neto</span>
+E. Transcriptome analysis of the acoelomate human parasite Schistosoma <span
+class=SpellE>mansoni</span>. Nat Genet. 2003 Oct;35(2):148-57.<span
+style='mso-spacerun:yes'>&nbsp; </span><span class=SpellE>Epub</span> 2003 Sep
+14.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><b><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>Paquola
+AC</span></b><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>,
+<span class=SpellE>Nishyiama</span> MY Jr, Reis EM, da Silva AM, <span
+class=SpellE>Verjovski</span>-Almeida S. <span class=SpellE>ESTWeb</span>:
+bioinformatics services for EST sequencing projects. Bioinformatics. 2003 Aug
+12;19(12):1587-8.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=Standard><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Standard><b><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>Paquola
+AC</span></b><span style='font-size:11.0pt;mso-bidi-font-family:"Times New Roman"'>,
+Machado AA, Reis EM, Da Silva AM, <span class=SpellE>Verjovski</span>-Almeida
+S. <span class=SpellE>Zerg</span>: a very fast BLAST parser library.
+Bioinformatics. 2003 May 22;19(8):1035-6.</span><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+  </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container" id="contact">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CONTACT</span></h5>
+    <div style="filter: none; -webkit-filter: none;">
+    <img src="libd.png">
+    </div>
+<p/>Paquola Lab<br>
+The Lieber Institute for Brain Development<br>
+855 North Wolfe Street<br>
+Suite 300, 3rd Floor<br>
+Baltimore, MD 21205<br>
+<br>
+email: apuapaquola_at_gmail_dot_com
+
+   </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center bgpage w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+</body>
+</html>
